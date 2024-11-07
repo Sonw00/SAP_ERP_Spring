@@ -1,0 +1,22 @@
+/* 전체 삭제 버튼 - 오른쪽 상단 */
+.delete-form {
+    position: absolute;
+    right: 130px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.delete-button {
+    padding: 10px 15px;
+    background-color: rgb(255, 128, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}
